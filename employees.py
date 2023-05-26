@@ -22,7 +22,7 @@ if agree:
     st.dataframe(employees)
 
 
-
+# Crear un buscador de empleados con cajas de texto y botones de comando, que permitan buscar por Employee_ID, Hometown o Unit
 @st.cache
 def buscar_empleados(empleado_id, ciudad, unidad):
     # Filtrar los empleados según los criterios de búsqueda
